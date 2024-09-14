@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Player App</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Video Player App</h1>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="video" accept="video/*" required>
+      <button type="submit">Upload Video</button>
+    </form>
+    <ul id="videoList" class="video-list"></ul>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>

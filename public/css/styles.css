@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+form {
+  margin-bottom: 20px;
+}
+.video-list {
+  list-style-type: none;
+  padding: 0;
+}
+.video-list li {
+  margin: 10px 0;
+}
